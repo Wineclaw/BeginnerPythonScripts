@@ -10,7 +10,7 @@ r = float(input("What is the interest rate (in decimals)?"))
 n = int(input("How many times per year is the interest compounded?"))
 t = int(input("How many years will the money be compounded for?"))
 
-# Final amount equation, probably wrong
+# Final amount equation
 
 final_amount = P * (1 + (r/n)) ** (n*t)
 
