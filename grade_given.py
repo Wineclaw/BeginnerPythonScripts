@@ -22,11 +22,14 @@ def grade_get(grade):
         print("A grade of F1 Supp or F2 is given")
     elif grade > 40 and grade < 45:
         print("A grade of F2 is given")
-    elif grade <40:
+    elif grade <= 40:
         print("A grade of F3 is given")
     else:
         print("No grade could be given")
 
-x = int(input("What mark was received on the exam?"))
 
-grade_get(x)
+xs = [83, 75, 74.9, 70, 69.9, 65, 60, 59.9, 55, 50,
+                     49.9, 45, 44.9, 40, 39.9, 2, 0]
+
+for x in xs:
+    grade_get(x)
