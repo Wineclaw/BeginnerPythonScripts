@@ -26,6 +26,8 @@ def again():
     else:
         print("Goodbye.")
 
+        
+# The actual "game"
 def game():
     import random
     global h_win
